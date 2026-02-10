@@ -1,0 +1,14 @@
+google_credentials.json
+.env
+
+*.parquet
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+Thumbs.db
