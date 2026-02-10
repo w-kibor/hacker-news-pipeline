@@ -16,8 +16,6 @@ The goal of this project was to move away from static CSV files and build a pipe
 
 ##  Pipeline Architecture
 
-[Image of a data engineering ETL pipeline architecture: API to Local Storage to Cloud Warehouse]
-
 ### 1. Data Ingestion (Extract)
 I used the Hacker News API to fetch the top 20 trending stories. 
 * **Challenge:** The API returns a list of IDs, requiring nested requests to get individual story details.
